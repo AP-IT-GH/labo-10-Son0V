@@ -1,0 +1,17 @@
+body {
+  display: grid;
+  place-content: center;
+  height: 100dvh;
+}
+
+div {
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  transition: 2s;
+
+  &:hover {
+    border-radius: 50%;
+    background-color: blue;
+  }
+}
